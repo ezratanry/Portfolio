@@ -1,0 +1,42 @@
+.fa {
+    font-size: 30px;
+}
+button {
+    margin: 10px;
+}
+.nav-item .fa-address-book {
+    display: block;
+}
+body {
+    background-image: url(assets/bg.png);
+    background-size: cover;
+}
+.active {
+    font-weight: bold;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img .img-fluid {
+    width: auto;
+    height: auto;
+}
+.via, .cca, .awards, .about, .intro {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    background-color: white;
+}
+.game_modes {
+    background-color: white;
+}
+button {
+    margin: 0px;
+}
+.img-fluid {
+    height: auto;
+    width: auto;
+    padding: 20px;
+}

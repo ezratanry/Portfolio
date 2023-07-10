@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="mobile_style.css">
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>$(function () {$('[data-toggle="popover"]').popover()})</script>
+
+<title>Home Page</title>
+</head>
+<body data-spy="scroll" data-target="#website-navbar" data-offset="100">
+    <nav id="website-navbar" class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+        <a class="navbar-brand">
+            <img src="assets/icon.jpg" height="40px" width="40px">
+            Ezra's Portfolio
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-target"><span class="navbar-toggler-icon"></span></button>
+        <div id="navbar-target"  class="navbar-content collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.HTML"> Home Page </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.HTML"> About Me </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" data-toggle="dropdown"> Others </a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="awards.HTML"> Certificates </a>
+                        <a class="dropdown-item" href="cca.HTML"> CCA Achievements </a>
+                        <a class="dropdown-item" href="via.HTML"> Values-In-Action </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row m-3" id="title-text">
+            <div class="col-md-12">
+                <br>
+                <!-- Title Jumbotron -->
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="col pt-5">
+                            <h1 class="display-4"> Welcome to Ezra's <span class="badge badge-success"> Portfolio </span></h1>
+                            <h4> A showcase of all my achievements </h4>
+                        </div>
+                        <div class="col-3">
+                            <img src="assets/main.jpg" height=200px>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="main-picture">
+            <div class="col-md-12">
+                <div class="alert alert-info alert-dismissible fade show">
+                    <button type="button" class="close" data-dismiss="alert"> &times; </button>
+                    This site was created by Tan Ren Yi, Ezra.
+                </div>
+
+                <div id="purpose" class="carousel slide" data-ride="carousel">
+
+                    <!-- Carosel Items -->
+                    <div class="carousel-inner center">
+                        <div class="carousel-item active">
+                            <img src="assets/port.jpg" height=720px width=1280px class="img-fluid">
+                            <div class="carousel-caption">
+                                <h1> Welcome </h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/cny.jpg" height=720px width=1280px class="img-fluid">
+                            <div class="carousel-caption">
+                                <h1> CNY Celebration </h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/carousel_band.jpg" height=720px width=1280px class="img-fluid">
+                            <div class="carousel-caption">
+                                <h1> Concert Band</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel Controls -->
+                    <a class="carousel-control-prev" href="#purpose" data-slide="prev">
+                        <span class="fa fa-chevron-left"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#purpose" data-slide="next">
+                        <span class="fa fa-chevron-right"></span>
+                    </a>
+                    <!-- Carousel Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#purpose" data-slide-to="0" class="active"></li>
+                        <li data-target="#purpose" data-slide-to="1"></li>
+                        <li data-target="#purpose" data-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row py-3" id="cinfo">
+            <div class="col-md-12">
+                <h1><span class="badge badge-info"> Contact Information </span></h1>
+                <table class="table table-boarderless">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th> No. </th>
+                            <th class="w-50"> Platform </th>
+                            <th> Info (Link) </th>
+                        </tr>
+                    </thead>
+                    <tbody class="cinfo">
+                        <tr>
+                            <td> 1. </td>
+                            <td>
+                                <a href="#cinfo" data-toggle="popover" data-container="body" data-content="My Personal Email" data-placement="right" title="Email" data-trigger="hover"> Email </a>
+                            </td>
+                            <td> ezratanry@gmail.com </td>
+                        </tr>
+                        <tr>
+                            <td> 2. </td>
+                            <td>
+                                <a href="#cinfo" data-toggle="popover" data-container="body" data-content="I am also avaliable on WhatsApp" data-placement="right" title="Phone Number" data-trigger="hover"> Phone Number </a>
+                            </td>
+                            <td> +65 98373768 </td>
+                        </tr>
+                        <tr>
+                            <td> 3. </td>
+                            <td>
+                                <a href="#cinfo" data-toggle="popover" data-container="body" data-content="My Discord Username" data-placement="right" title="Discord" data-trigger="hover"> Discord </a>
+                            </td>
+                            <td> mustix_ </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+    
